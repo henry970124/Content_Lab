@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: cola_shavedice_web
+    ports:
+      - "8080:80"
+    volumes:
+      - ./index.php:/var/www/html/index.php
+    restart: unless-stopped
+    environment:
+      - TZ=Asia/Taipei
