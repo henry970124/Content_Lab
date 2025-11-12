@@ -1,133 +1,207 @@
-
 <!DOCTYPE html>
 <html lang="zh_TW">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://colashavedice.github.io/Cola/可乐剉冰.css">
-    <link rel="stylesheet" href="https://colashavedice.github.io/Cola/footer.css">
-    <link rel="stylesheet" href="https://colashavedice.github.io/Cola/03.css">
-    <link rel="shortcut icon" href="https://colashavedice.github.io/Cola/IMG/可乐剉冰.jpg">
     <title>可乐剉冰</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Microsoft JhengHei', 'Segoe UI', sans-serif;
+            background: #0a0a0a;
+            color: #e0e0e0;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        header {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .资料 {
+            background: #1a1a1a;
+            border: 1px solid #333;
+            border-radius: 10px;
+            padding: 40px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .资料-d h2 {
+            color: #4a90e2;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .资料-d strong {
+            color: #b0b0b0;
+            font-size: 1.2em;
+        }
+
+        .简介II {
+            margin-top: 30px;
+        }
+
+        .简介II ul {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .简介II li {
+            background: #252525;
+            padding: 10px 20px;
+            border-radius: 5px;
+            border: 1px solid #404040;
+        }
+
+        .简介II a {
+            color: #4a90e2;
+            text-decoration: none;
+        }
+
+        .简介II a:hover {
+            color: #357abd;
+        }
+
+        .cola1 {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .hs1 {
+            background: #1a1a1a;
+            border: 1px solid #333;
+            border-radius: 10px;
+            padding: 30px;
+        }
+
+        .hsd1 h1 {
+            color: #4a90e2;
+            font-size: 1.8em;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #4a90e2;
+            padding-bottom: 10px;
+        }
+
+        .hsd1 p {
+            color: #b0b0b0;
+            line-height: 1.8;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background: #1a1a1a;
+            border: 1px solid #333;
+            border-radius: 10px;
+            padding: 30px;
+            max-width: 1200px;
+            margin: 30px auto;
+        }
+
+        .footer-d-img ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        .footer-d-img a {
+            color: #4a90e2;
+            text-decoration: none;
+            font-size: 1.1em;
+            transition: color 0.3s;
+        }
+
+        .footer-d-img a:hover {
+            color: #357abd;
+        }
+
+        .div {
+            text-align: center;
+            padding: 15px;
+            color: #808080;
+        }
+
+        .div ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .div a {
+            color: #4a90e2;
+            text-decoration: none;
+        }
+
+        .div a:hover {
+            color: #357abd;
+        }
+    </style>
 </head>
 <body>
     <header>
-               <section class="资料">
+        <section class="资料">
             <div class="资料-d">
-                <div>
-                    <br>
-                    <br>
-                </div>
-                <div class="img">
-                    <img src="https://colashavedice.github.io/Cola/IMG/可乐剉冰.jpg" alt="Cola">
-                </div>
-                <div>
-                    <br>
-                    <br>
-                </div>
                 <div class="简介">
-                    <h2>
-                        可樂剉冰
-                    </h2>
-                    <strong>
-                        Cola_ShavedIce
-                    </strong>
+                    <h2>可樂剉冰</h2>
+                    <strong>Cola_ShavedIce</strong>
                 </div>
                 <div class="简介II">
                     <ul>
                         <li>
-                            <img src="https://colashavedice.github.io/Cola/IMG/icons8-company-50.png" alt="机构">
-                            &ensp;
-                            <span>
-                                SAIHS
-                            </span>
+                            <span>SAIHS</span>
                         </li>
                         <li>
-                            <img src="https://colashavedice.github.io/Cola/IMG/icons8-location-50.png" alt="位置">
-                            &ensp;
-                            <span>
-                                127.0.0.1
-                            </span>
+                            <span>127.0.0.1</span>
                         </li>
                         <li>
-                            <img src="https://colashavedice.github.io/Cola/IMG/icons8-mail-50.png" alt="邮箱">
-                            &ensp;
-                            <span>
-                                ColaShavedIce@gmail.com
-                            </span>
+                            <span>ColaShavedIce@gmail.com</span>
                         </li>
                         <li>
-                            <img src="https://colashavedice.github.io/Cola/IMG/icons8-link-50.png" alt="链结">
-                            &ensp;
                             <span>
-                                <a href="https:/www.instagram.com/cola_shavedice/">
-                                    Instagram.com
-                                </a>
+                                <a href="https://www.instagram.com/cola_shavedice/">Instagram.com</a>
                             </span>
                         </li>
                     </ul>
                 </div>
-                <br>
             </div>
         </section>
         <section class="cola1">
-        <section class="hs1">
-            <div class="hsd1">
-                <h1>
-                    關於我
-                </h1>
-                <br>
-                <p>
-                    一名來自台北的高中生，熱愛Minecraft以及FPS類型遊戲
-                </p>
-                <p>
-                    國中畢業於台北市立天母國中，目前就讀台北市立松山工農資訊系
-                </p>
-                <p>
-                    懂一點點網路知識，Python C# JavaScript Kali Linux
-                </p>
-            </div>
+            <section class="hs1">
+                <div class="hsd1">
+                    <h1>關於我</h1>
+                    <p>一名來自台北的高中生，熱愛Minecraft以及FPS類型遊戲</p>
+                    <p>國中畢業於台北市立天母國中，目前就讀台北市立松山工農資訊系</p>
+                    <p>懂一點點網路知識，Python C# JavaScript Kali Linux</p>
+                </div>
+            </section>
+            <section class="hs1">
+                <div class="hsd1">
+                    <h1>進入資訊系的緣由</h1>
+                    <p>從國中起就一直對電腦方面以及網路技術充滿豐富興趣</p>
+                    <p>在某次與輔導老師的談話中，決定進入松山工農</p>
+                </div>
+            </section>
+            <section class="hs1">
+                <div class="hsd1">
+                    <h1>搞笑不打稿</h1>
+                    <p>由一群就讀高職與高中的學生聚集的組織</p>
+                    <p>目前正在計畫運營YouTube頻道</p>
+                </div>
+            </section>
         </section>
-        <section class="hs1">
-            <div class="hsd1">
-                <img src="https://colashavedice.github.io/Cola/IMG/cc.png" alt="./IMG/螢幕擷取畫面 2025-10-17 160243.png">
-            </div>
-        </section>
-                <section class="hs1">
-            <div class="hsd1">
-                <img src="https://colashavedice.github.io/Cola/IMG/螢幕擷取畫面 2025-10-17 160243.png" alt="./IMG/螢幕擷取畫面 2025-10-17 160243.png">
-            </div>
-        </section>
-        <section class="hs1">
-            <div class="hsd1">
-                <h1>
-                    進入資訊系的緣由
-                </h1>
-                <br>
-                <p>
-                    從國中起就一直對電腦方面以及網路技術充滿豐富興趣
-                </p>
-                <p>
-                    在某次與輔導老師的談話中，決定進入松山工農
-                </p>
-            </div>
-        </section>
-        <section class="hs1">
-            <div class="hsd1">
-                <h1>
-                    搞笑不打稿
-                </h1>
-                <p>
-                    由一群就讀高職與高中的學生聚集的組織
-                </p>
-                <p>
-                    目前正在計畫運營YouTube頻道
-                </p>
-                <br>
-                <img src="https://colashavedice.github.io/Cola/IMG/521334762_17935430136048439_1390964985362450020_n.jpg" alt="">
-            </div>
-        </section>
-    </section>
     </header>
     <main>
     </main>
@@ -135,42 +209,28 @@
         <div class="footer-d-img">
             <ul>
                 <li>
-                    <a href="https://discordapp.com/users/Cola_ShavedIce">
-                        <img src="https://colashavedice.github.io/Cola/IMG/icons8-discord-100.png" alt="discord">
-                    </a>
+                    <a href="https://discordapp.com/users/Cola_ShavedIce">Discord</a>
                 </li>                
                 <li>
-                    <a href="https://github.com/ColaShavedIce">
-                        <img src="https://colashavedice.github.io/Cola/IMG/icons8-github-100.png" alt="github">
-                    </a>
+                    <a href="https://github.com/ColaShavedIce">GitHub</a>
                 </li>
                 <li>
-                    <a href="https://space.bilibili.com/3493089115114338?spm_id_from=333.1296.0.0">
-                        <img src="https://colashavedice.github.io/Cola/IMG/icons8-bilibili-100.png" alt="bilibili">
-                    </a>
+                    <a href="https://space.bilibili.com/3493089115114338?spm_id_from=333.1296.0.0">Bilibili</a>
                 </li>
             </ul>
         </div>
     </footer>
     <div class="div">
-        <p>
-            © 可樂剉冰 2025
-        </p>
+        <p>© 可樂剉冰 2025</p>
     </div>
     <div class="div">
         <ul>
             <li>
-                <a href="?page=secret">
-                    Secret
-                </a>
+                <a href="?page=secret">Secret</a>
             </li>
+            <li>|</li>
             <li>
-                |
-            </li>
-            <li>
-                <a href="?page=anonymous">
-                    Anonymous
-                </a>
+                <a href="?page=anonymous">Anonymous</a>
             </li>
         </ul>
     </div>
@@ -220,3 +280,4 @@
         setInterval(updateGlitch, 50);
     </script>
 </body>
+</html>
